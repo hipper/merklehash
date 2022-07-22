@@ -1,0 +1,9 @@
+/.dockerignore
+.vscode
+**/.DS_Store
+**/.editorconfig
+vendor
+
+Dockerfile
+
+/merklehash

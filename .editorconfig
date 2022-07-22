@@ -1,0 +1,41 @@
+# http://editorconfig.org
+
+root = true
+
+[*]
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.go]
+indent_style = tab
+
+[*.golden]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[*.graphql]
+indent_size = 4
+
+[*.json]
+indent_size = 2
+
+[*.md]
+indent_size = 4
+trim_trailing_whitespace = false
+
+[*.proto]
+indent_size = 2
+
+[*.sh]
+indent_size = 2
+
+[*.{yaml,yml}]
+indent_size = 2
+
+[Dockerfile*]
+indent_size = 4
+
+[Makefile]
+indent_style = tab
